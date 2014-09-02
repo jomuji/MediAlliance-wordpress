@@ -5412,6 +5412,22 @@ body.en #home-center p.light span.bullet{
 
 /* Ajouté par José */
 
-@media only screen and (max-width: 1300px) {
-    .navbar .container{width:1180px; position: relative}
+@media only screen and (max-width: 2700px) {
+    .navbar-inner .no-padding {
+        width: 1180px;
+        position: relative;
+    }
+    #lang_sel_list {
+        font-family: verdana,arial,sans-serif;
+        height: 32px;
+        position: absolute;
+        right: 5%;
+        top: 3%;
+        z-index: 99;
+        text-align: right;
+    }
+    #lang_sel_list li {
+    float: right;
+    position: relative;
+}
 }
