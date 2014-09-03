@@ -5451,4 +5451,5 @@ body.en #home-center p.light span.bullet{
     width: 30px;
     }
     #statistiques, .team-citation {display: none}
+    .section-title h1 {font-size: 26px;}
 }
