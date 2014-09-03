@@ -5452,4 +5452,38 @@ body.en #home-center p.light span.bullet{
     }
     #statistiques, .team-citation {display: none}
     .section-title h1 {font-size: 26px;}
+    section#une-structure-souple-et-allegee .the-content .one_half {width: 100%; position: relative; padding-top: 70px; height: auto; margin-bottom: 30px;}
+    .one_half .right{position: absolute; top:0px; left: 50%; margin-left: -32px; text-align: center}
+    #une-structure-souple-et-allegee .the-content .one_half .left{text-align: center; width: 100%;}
+    #une-structure-souple-et-allegee .the-content .one_half.last .left{position: absolute; top:0px; left: 50%; margin-left: -32px; text-align: center}
+    section#une-structure-souple-et-allegee .the-content .one_half.last .right{position: relative; text-align: center; left: auto; width: 100%;}
+    footer .logo {width: 100%; margin-top: 10px;}
+    #map_canvas, #map_canvas2{display: none;}
+    section#contact{background: #F29030;}
+    #contact .container {color: #fff;font-size: 18px; left: auto; margin-left: auto; max-width: 100%; padding: 0; position: relative; text-align: center; top: auto; width: 100%;}
+    #contact .container .adresses { float: left; line-height: 24px;width: 100%; font-size:14px;}
+    #contact .container .border{background:#ffffff;}
+    contact .courriels { clear: both; margin: 0 auto; max-width: 768px;width: 100%;}
+    #contact .courriels li {
+    border: 1px solid #fff !important;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    padding: 0;
+    margin:5px auto;
+    width:60%;
+    }
+    #contact .courriels li.rowb.first {
+    margin-left: auto;
+    }
+    .navbar-inner .no-padding {
+        width: 100%;
+        position: relative;
+    }
+    #navigation #logo {
+    background-size: 79px 55px !important;
+    left: auto;
+    position:relative;
+    margin-left: 20px;
+    }
 }
