@@ -76,7 +76,7 @@ global $global_theme_options;
               			?>
                       
 					</div>
-                    <?php do_action('icl_language_selector'); ?>
+                    <?// php do_action('icl_language_selector'); ?>
 				</div>
                 
 			</div>

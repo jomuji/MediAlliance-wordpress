@@ -5417,14 +5417,20 @@ body.en #home-center p.light span.bullet{
         width: 1180px;
         position: relative;
     }
-    #lang_sel_list {
+    #lang_sel_list, #menu-item-518 {
         font-family: verdana,arial,sans-serif;
         height: 32px;
         position: absolute;
-        right: 195px;
-        top: 3%;
+        right: 180px;
+        top: -15px;
         z-index: 99;
         text-align: right;
+        text-transform: none;
+    }
+    .navbar .nav > li#menu-item-518 > a{
+        text-transform: none;
+        padding:2px 15px;
+        line-height: 16px;
     }
     #lang_sel_list li {
     float: right;
@@ -5485,5 +5491,24 @@ body.en #home-center p.light span.bullet{
     left: auto;
     position:relative;
     margin-left: 20px;
+    }
+    #lang_sel_list, #menu-item-518 {
+    font-family: verdana,arial,sans-serif;
+    height: 32px;
+    position: relative;
+    right: auto;
+    text-align: left;
+    text-transform: none;
+    top: auto;
+    z-index: 99;
+    }
+    .navbar .nav > li#menu-item-518 > a {
+    line-height: 16px;
+    padding: 8px 0px;
+    text-transform: none;
+    }
+    .nav-collapse {
+    background-color:#ffffff!important;
+    padding: 0 30px;
     }
 }
