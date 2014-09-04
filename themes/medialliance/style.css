@@ -5417,7 +5417,7 @@ body.en #home-center p.light span.bullet{
         width: 1180px;
         position: relative;
     }
-    #lang_sel_list, #menu-item-518 {
+    #lang_sel_list, #menu-item-518, #menu-item-525 {
         font-family: verdana,arial,sans-serif;
         height: 32px;
         position: absolute;
@@ -5426,8 +5426,9 @@ body.en #home-center p.light span.bullet{
         z-index: 99;
         text-align: right;
         text-transform: none;
+        float: right;
     }
-    .navbar .nav > li#menu-item-518 > a{
+    .navbar .nav > li#menu-item-518 > a, .navbar .nav > li#menu-item-525 > a{
         text-transform: none;
         padding:2px 15px;
         line-height: 16px;
@@ -5492,7 +5493,7 @@ body.en #home-center p.light span.bullet{
     position:relative;
     margin-left: 20px;
     }
-    #lang_sel_list, #menu-item-518 {
+    #lang_sel_list, #menu-item-518, #menu-item-525 {
     font-family: verdana,arial,sans-serif;
     height: 32px;
     position: relative;
@@ -5502,7 +5503,7 @@ body.en #home-center p.light span.bullet{
     top: auto;
     z-index: 99;
     }
-    .navbar .nav > li#menu-item-518 > a {
+    .navbar .nav > li#menu-item-518 > a, .navbar .nav > li#menu-item-525 > a {
     line-height: 16px;
     padding: 8px 0px;
     text-transform: none;
